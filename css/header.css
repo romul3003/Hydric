@@ -1,0 +1,172 @@
+/* 1. Header */
+.header {
+	width: 100%;
+	background-image: url('../img/rectangle-1-copy.jpg');
+	background-size: cover;
+	background-color: #426f44;
+	padding: 39px 10px 0 10px;
+	color: #fff;
+}
+
+.header_content {
+	max-width: 976px;
+	margin: 0 auto;
+	line-height: 36px;
+}
+
+	.header_content header {
+		position: relative;
+		padding-bottom: 95px;
+	}
+
+		.logo {
+			margin-right: 1%;
+			font-size: 0;
+			float: left;
+		}
+
+			.logo_icon {
+				width: 56px;
+				margin-right: 12px;
+			}
+
+			.logo_title {
+				font-size: 36px;
+				font-weight: 700;
+				color: #fff;
+			}
+
+			.logo_icon, .logo_title {
+				display: inline-block;
+			}
+
+			.logo_icon img, .logo_title {
+				vertical-align: middle;
+			}
+
+		.header_menu {
+			float: right;
+			margin-right: 10px;
+		}
+
+		.header_menu a {
+			display: inline-block;
+			padding: 0 15px;
+			color: #fff;
+			font-size: 21px;
+			font-weight: 600;
+			vertical-align: middle;
+			text-decoration: none;
+			box-sizing: border-box;
+			border: 3px solid transparent;
+		}
+
+
+		.header_menu a:hover {
+			border-color: #fff;
+		}
+
+		.header_menu_btn {
+			float: right;
+			padding-right: 15px;
+			padding-left: 5px;
+		    font-size: 21px;
+		    font-weight: 600;
+		    color: #fff;
+		    display: none; 
+		    box-sizing: border-box;
+		    position: relative;
+		}
+
+		.header_menu_btn::before {
+			content: "\2630";
+			position: absolute;
+			left: -20px;
+		}
+
+		.header_menu_btn img {
+			vertical-align: middle;
+		}
+
+		.header_menu_btn:hover {
+		    cursor: pointer;
+		}
+
+		#header_menu_checkbox {
+		    display: none;
+		}
+
+	.banner {
+		width: 252px;
+		margin: 0 auto;
+		padding-top: 29px;
+		padding-bottom: 105px;
+	}
+
+
+
+
+
+@media screen and (max-width: 750px) {
+	
+	.header_menu {
+		float: none;
+		margin: 0;
+		clear: left;
+		text-align: center;
+		display: none;
+	}
+
+		.header_menu a {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		.header_menu_btn {
+			display: block;
+			font-size: 1.9rem;
+		}
+
+		#header_menu_checkbox:checked ~ .header_menu {
+			display: block;
+		}
+
+		#header_menu_checkbox:checked ~ .header_menu_btn::before {
+			content: "\2715";
+
+}
+
+@media screen and (max-width: 551px) {
+	
+	.header_content header {
+		padding-bottom: 180px;
+	}
+
+		.header_menu a {
+			display: block;
+			border: none;
+			color: #fff;
+			text-align: center;
+			padding: 0;
+		}
+
+		.header_menu a:hover {
+			background: #ccc;
+			color: #426f44;
+		}
+
+	.header_menu {
+		position: absolute;
+		width: 100%;
+		float: none;
+		top: 41px;
+		right: -1px;
+		background-color: #426f44;	
+	}
+
+	
+	.banner {
+		padding-bottom: 72px;
+	}
+
+}

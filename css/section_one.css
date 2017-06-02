@@ -1,0 +1,16 @@
+/* 2. Section 1 */
+.section_one {
+	padding-top: 115px;
+	margin: 0 auto;
+	color: #4e4e4e;
+}
+
+	.section_one .subtitle {
+		color: #737070;
+	}
+
+	.half_of_watermelon {
+		width: 250px;
+		padding: 75px 0 119px 0;
+		margin: 0 auto;
+	}

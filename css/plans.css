@@ -1,0 +1,126 @@
+/* 4. Plans */
+.plans {
+	background-color: #e9ede9;
+	padding: 115px 0 94px 0;
+	margin: 0 auto;
+}
+
+	.plans_container {
+		max-width: 957px;
+		margin: 0 auto;
+	}
+
+		.plans .subtitle {
+			color: #737070;
+		}
+
+		.products_menu {
+			text-align: center;
+			/* margin: 0 auto; */
+			font-size: 0;
+			margin: 0 -15px 0;
+		}
+
+			.product_item {
+				display: inline-block;
+				background-color: #e2e4e1;
+				width: 301px;
+				margin: 95px 14px 0;
+				padding: 34px 0 41px 0;
+			}
+
+				.item_title {
+					padding-bottom: 25.5px;
+					color: #7d7b7b;
+					font-size: 33px;
+					font-weight: 600;
+				}
+
+					.item_title span {
+						color: #afacac;
+						font-weight: 400;
+					}
+
+				.starting {
+					padding: 25.5px 0 8px 0;
+					color: #4e4e4e;
+					font-size: 32px;
+				}
+
+				.price {
+					padding: 8px 0 39px 0;
+					color: #b38e48;
+					font-size: 32px;
+				}
+
+				.view_details_btn {
+					font-size: 16px;
+					padding: 13px 19px 11px 18px;
+					color: #fff;
+					background-color: #71ae5a;
+					border-radius: 13px;
+				}
+
+				.view_details_btn:hover {
+					cursor: pointer;
+					background-color: #b38e48;
+				}
+
+		.footer {
+			margin-top: 192px;
+			position: relative;
+		}
+
+			.up {
+				width: 48px;
+				height: 47px;
+				background-color: #71ae5a;
+				border-radius: 50%;
+				position: absolute;
+				right: 0;
+			}
+
+			.up::after {
+				content: "";
+				position: absolute;
+				width: 0;
+				border-left: 10px solid  transparent;
+				border-right: 10px solid  transparent;	
+				border-bottom: 14px solid #fff;
+				left: 50%;
+				top: 50%;
+				margin-left: -10px;
+				margin-top: -7px;
+			}
+
+			.footer_nav {
+				margin-left: -17px;
+			}
+
+				.footer_nav_item {
+					padding: 10px 0 8px 0;
+					margin: 0 17px 0;
+					font-size: 18px;
+					font-weight: 600;
+					color: #747373;
+					text-decoration: none;
+					display: inline-block;
+				}
+
+			.rights {
+				padding: 8px 0;
+				font-size: 18px;
+				color: #958f8f;
+			}
+
+@media screen and (max-width: 973px) {
+	
+	.footer_nav, .rights {
+		text-align: center;
+	}
+
+	.up {
+		left: 50%;
+		margin-left: -24px;
+		top: -70px;
+	}

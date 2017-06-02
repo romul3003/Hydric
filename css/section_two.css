@@ -1,0 +1,141 @@
+/* 3. Section 2 */
+.section_two {
+	padding-top: 96px;
+	margin: 0 auto;
+	background-color: #2b342b;
+	color: #fff;
+}
+
+	.section_two .subtitle {
+		padding-top: 26px;
+	}
+
+	.useful_properties li {
+		text-align: center;
+		padding: 5px 0;
+		font-size: 22px;
+	}
+
+	.useful_properties {
+		padding-top: 47px;
+		display: none;
+	}
+
+	.watermelon {
+		padding-top: 47px;
+		padding-bottom: 102px;
+		width: 279px;
+		margin: 0 auto;
+		position: relative;
+		box-sizing: border-box;
+	}
+
+		.spiral_one {
+			width: 34px;
+			position: absolute;
+			top: 38%;
+			left: 2.5%;
+		}
+
+			.short_red_line {
+				position: absolute;
+				left: -27px;
+				top: 21px;
+			}
+
+			.large_red_line {
+				position: absolute;
+				left: -175px;
+				top: 21px;
+			}
+
+			.calories {
+				position: absolute;
+				left: -175px;
+				top: 8px;
+			}
+
+		.spiral_two {
+			width: 30px;
+			position: absolute;
+			top: 32%;
+			right: 4.5%;
+		}
+
+			.short_green_line {
+				position: absolute;
+				right: -54px;
+				top: -28px;
+			}
+
+			.large_green_line{
+				position: absolute;
+				right: -183px;
+				top: -35px;
+			}
+
+			.protein {
+				position: absolute;
+				right: -183px;
+				top: -49px;
+			}
+
+		.spiral_three {
+			width: 22px;
+			position: absolute;
+			top: 49%;
+			right: 19.5%;
+		}
+
+			.blue_line {
+				position: absolute;
+				right: -160px;
+				top: 1px;
+			}
+
+			.water {
+				position: absolute;
+				right: -160px;
+				top: -12px;
+			}
+
+		.spiral_four {
+			width: 20px;
+			position: absolute;
+			bottom: 29%;
+			right: 47.5%;
+		}
+
+			.yellow_line {
+				position: absolute;
+				left: -177px;
+				top: 1px;
+			}
+
+			.fat {
+				position: absolute;
+				left: -177px;
+				top: -12px;
+			}
+
+	.calories, .fat, .protein, .water {
+		font-size: 22px;
+	}
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+	.spiral_one div, .spiral_one span,
+	.spiral_two div, .spiral_two span,
+	.spiral_three div, .spiral_three span,
+	.spiral_four div,  .spiral_four span {
+		display: none;
+	}
+
+	.useful_properties {
+		display: block;
+	}
+}
