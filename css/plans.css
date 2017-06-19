@@ -93,6 +93,10 @@
 				margin-top: -7px;
 			}
 
+			.up:hover {
+				cursor: pointer;
+			}
+
 			.footer_nav {
 				margin-left: -17px;
 			}
